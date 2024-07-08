@@ -28,7 +28,7 @@ const server = http.createServer((req, res) => {
         req.on("end", () => {
             console.log(req.headers["content-length"] + " Bytes received from " + req.socket.remoteAddress.replaceAll("::ffff:", "") + " " + 100 + "%");
             console.log("Done. Received " + req.headers["content-length"] + " Bytes");
-            res.end("Data Sucessfully received");
+            res.end("Data Sucessfully received, your file number is " + filename + ", so that would be " + req.headers.origin + "/" + filename);
         })
     } else {
         console.log("DOWNLOAD");
