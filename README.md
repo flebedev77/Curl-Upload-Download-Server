@@ -3,10 +3,10 @@
 ---
 
 Prerequisites:
-    - (Node.js)[https://nodejs.org]
-    - (NPMjs)[https://npmjs.org]
-    - (Git (recommended))[https://git-scm.org]
-    - (curl)[https://curl.se]
+    - [Node.js](https://nodejs.org)
+    - [NPMjs](https://npmjs.org)
+    - [Git (recommended)](https://git-scm.org)
+    - [curl](https://curl.se)
 
 Setup:
     - Download repo `git clone https://github.com/flebedev77/Curl-Upload-Download-Server.git`
